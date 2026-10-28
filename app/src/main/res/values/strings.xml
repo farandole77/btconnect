@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BTConnect</string>
+
+    <string name="scan">검색</string>
+    <string name="stop_scan">검색 중지</string>
+    <string name="turn_on">블루투스 켜기</string>
+    <string name="grant_permission">권한 허용</string>
+
+    <string name="status_unsupported">이 기기는 블루투스를 지원하지 않습니다</string>
+    <string name="status_no_permission">블루투스 권한이 필요합니다</string>
+    <string name="status_off">블루투스가 꺼져 있습니다</string>
+    <string name="status_turning_on">블루투스를 켜는 중…</string>
+    <string name="status_scanning">주변 기기를 검색하는 중…</string>
+    <string name="status_ready">기기를 선택하면 페어링합니다</string>
+
+    <string name="empty_list">페어링할 기기를 페어링 모드로 두고 [검색]을 누르세요</string>
+    <string name="unknown_device">(이름 없는 기기)</string>
+    <string name="state_bonded">페어링됨</string>
+    <string name="state_bonding">페어링 중…</string>
+    <string name="state_available">선택하여 페어링</string>
+
+    <string name="permission_denied">권한이 없어 블루투스 기기를 검색할 수 없습니다</string>
+    <string name="enable_failed">블루투스를 켤 수 없습니다</string>
+    <string name="scan_failed">검색을 시작하지 못했습니다</string>
+    <string name="already_bonded">%1$s 기기는 이미 페어링되어 있습니다</string>
+    <string name="bonding_in_progress">%1$s 기기와 페어링하는 중입니다</string>
+    <string name="pair_started">%1$s 기기에 페어링을 요청했습니다</string>
+    <string name="pair_start_failed">%1$s 기기에 페어링을 요청하지 못했습니다</string>
+    <string name="pair_success">%1$s 기기와 페어링되었습니다</string>
+    <string name="pair_failed">%1$s 기기와 페어링하지 못했습니다. 기기가 페어링 모드인지 확인하세요</string>
+
+    <string name="pairing_title">%1$s 페어링</string>
+    <string name="pairing_pin_message">기기의 PIN을 입력하세요 (대부분 0000 또는 1234)</string>
+    <string name="pairing_display_passkey">키보드에서 아래 번호를 입력한 뒤 Enter를 누르세요\n\n%1$s</string>
+    <string name="pairing_display_pin">기기에서 아래 PIN을 입력하세요\n\n%1$s</string>
+    <string name="pairing_confirm">기기에 표시된 번호가 같은지 확인한 뒤, 기기 또는 화면에 나타난 시스템 창에서 승인하세요\n\n%1$s</string>
+    <string name="pairing_consent">기기 또는 화면에 나타난 시스템 창에서 페어링을 승인하세요</string>
+    <string name="pair">페어링</string>
+
+    <string name="location_title">위치 설정이 꺼져 있습니다</string>
+    <string name="location_message">이 안드로이드 버전에서는 위치 설정이 켜져 있어야 블루투스 기기가 검색됩니다.</string>
+    <string name="location_open">위치 설정 열기</string>
+    <string name="location_no_settings">이 기기에는 위치 설정 화면이 없습니다. PC에서 다음 명령으로 켤 수 있습니다:\nadb shell settings put secure location_mode 3</string>
+</resources>
